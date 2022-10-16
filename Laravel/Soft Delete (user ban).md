@@ -1,4 +1,7 @@
 # Soft Delete
+> User ban using soft deletes for laratrust
+
+
 ## Migrations
 > ### <pre> $table->softDeletes(); </pre>
 
