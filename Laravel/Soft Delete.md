@@ -51,4 +51,5 @@
 
 # Mindmap for Soft Delete
 > ![Soft Delete](https://user-images.githubusercontent.com/115618347/196014027-835d3163-6f20-420c-8b25-7740aed7c5e7.png)
+> ![Soft Delete bg](https://user-images.githubusercontent.com/115618347/196014117-e3e5810e-bdf0-4a5e-af88-ea53af006d14.png)
 > [XMIND URL](https://xmind.works/share/Vl3V50TE)
