@@ -1,10 +1,10 @@
 # Soft Delete
 ## Migrations
-> ### $table->softDeletes();
+> ### <pre> $table->softDeletes(); </pre>
 ## Model
-> ### use Illuminate\Database\Eloquent\SoftDeletes;
-> ### use SoftDeletes;
-> ### protected $dates = ['deleted_at'];
+> ### <pre> use Illuminate\Database\Eloquent\SoftDeletes;</pre>
+> ### <pre> use SoftDeletes; </pre>
+> ### <pre> protected $dates = ['deleted_at']; </pre>
 ## Controller
 > ### banned (list of banned users)
 > <pre>  public function banned()
@@ -12,13 +12,13 @@
 > $users = User::onlyTrashed()->get();
 > return view('users.banned')->with('users',$users); 
 > } </pre>
-destroy (softdelete)
- public function destroy($id)
- {
- $user = User::find($id);
- $user->delete($id);
- return view('users.index')->with('users',User::all());
- }
+> ### destroy (softdelete)
+> <pre> public function destroy($id)
+> {
+> $user = User::find($id);
+> $user->delete($id);
+> return view('users.index')->with('users',User::all());
+> }</pre>
 hdelete (hard delete , permanently delete)
  public function hdelete($id)
  {
