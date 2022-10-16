@@ -1,5 +1,5 @@
 # Soft Delete
-> User ban using soft deletes for laratrust
+User ban using soft deletes for laratrust
 
 
 ## Migrations
