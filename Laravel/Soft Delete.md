@@ -1,12 +1,12 @@
 # Soft Delete
 ## Migrations
-### $table->softDeletes();
+> ### $table->softDeletes();
 ## Model
-### use Illuminate\Database\Eloquent\SoftDeletes;
-### use SoftDeletes;
-### protected $dates = ['deleted_at'];
+> ### use Illuminate\Database\Eloquent\SoftDeletes;
+> ### use SoftDeletes;
+> ### protected $dates = ['deleted_at'];
 ## Controller
-### banned (list of banned users)
+> ### banned (list of banned users)
 > <pre>  public function banned()
 > {
 > $users = User::onlyTrashed()->get();
